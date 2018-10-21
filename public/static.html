@@ -18,6 +18,9 @@
             $.ajax({
                 type: 'post',
                 url: '/data',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
                 dataType: 'json',
                 data: data
             }).done(function (data) {
