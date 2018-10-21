@@ -19,6 +19,8 @@ module.exports = async (ctx, next) => {
 			default: fileName = 'other'; break;
 		}
 		// 接下来针对各个不同的状态做出对应的处理
-		console.log(fileName)
+		// ctx.render('about', {
+		// 	name: 'error'
+		// })
 	}
 }
